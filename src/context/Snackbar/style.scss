@@ -1,0 +1,33 @@
+@import '../../sass/globalColors.scss';
+
+.snackbar {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .snackbar-container {
+    width: 400px;
+    border-radius: 3px;
+
+    .snackbar-msg {
+      padding: 10px;
+      color: $light-high;
+    }
+  }
+  .success {
+    background-color: #4ab64a;
+    border: 1px solid #3e913e;
+  }
+  .error {
+    background-color: #e74c3c;
+    border: 1px solid #c0392b;
+  }
+  .warning {
+    background-color: #f1c40f;
+    border: 1px solid #f39c12;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../sass/mixins.scss';
+@import '../../sass/globalColors.scss';
+
+section:nth-child(2) {
+  padding: 15px;
+  background-color: $magenta;
+
+  .top-section {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      @include heading-display;
+      margin-left: 10px;
+      color: $light-solid;
+    }
+  }
+}
+
+section:nth-child(3) {
+  .bottom-section {
+    p {
+      @include body-m;
+    }
+
+    a {
+      @include body-m-bold;
+      color: $magenta;
+
+      &:hover {
+        color: $dark-low;
+      }
+    }
+  }
+}

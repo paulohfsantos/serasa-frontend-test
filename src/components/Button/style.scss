@@ -1,0 +1,93 @@
+@import '../../sass/mixins.scss';
+@import '../../sass/globalColors.scss';
+
+button {
+  @include button;
+}
+
+.button--error {
+  background-color: #b84949;
+  border: none;
+  color: $light-solid;
+
+  &:hover {
+    background-color: #5f2b2b;
+    color: $light-solid;
+  }
+}
+.button--outline--error {
+  background-color: transparent;
+  border: 1px solid #b84949;
+  color: #b84949;
+
+  &:hover {
+    background-color: transparent;
+    color: #b84949;
+  }
+}
+
+
+.button--success {
+  background-color: #41a141;
+  border: none;
+  color: $light-solid;
+
+  &:hover {
+    background-color: #2b692b;
+    color: $light-solid;
+  }
+}
+.button--outline--success {
+  background-color: transparent;
+  border: 1px solid #41a141;
+  color: #41a141;
+
+  &:hover {
+    background-color: transparent;
+    color: #41a141;
+  }
+}
+
+
+.button--warning {
+  background-color: #dac23d;
+  border: none;
+  color: $light-high;
+
+  &:hover {
+    background-color: #b39f31;
+    color: $light-solid;
+  }
+}
+.button--outline--warning {
+  background-color: transparent;
+  border: 1px solid #dac23d;
+  color: #dac23d;
+
+  &:hover {
+    background-color: transparent;
+    color: #dac23d;
+  }
+}
+
+
+.button--info {
+  background-color: #379eda;
+  border: none;
+  color: $light-solid;
+
+  &:hover {
+    background-color: #2c7dac;
+    color: $light-solid;
+  }
+}
+.button--outline--info {
+  background-color: transparent;
+  border: 1px solid #379eda;
+  color: #379eda;
+
+  &:hover {
+    background-color: transparent;
+    color: #379eda;
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../sass/globalColors.scss';
+
+header {
+  padding: 5px;
+
+  ul {
+    text-align: center;
+    list-style: none;
+
+    li {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
+
